@@ -1,0 +1,141 @@
+body{
+    font-family: 'Gabriela', serif;
+    text-align: center;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+     border: dotted #a3d2ca 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h2, h3{
+    line-height: 2;
+}
+
+a{
+    color: #337FED;
+    /* font-family: 'Montserrat', sans-serif; */
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+#top{
+    margin: auto;
+    position: relative;
+    background-color: #ecf4f3;
+}
+
+.navbar{
+    padding-left: 150px;
+    padding-top: 25px;
+    /* width: 50%; */
+}
+
+.nav-link{
+    margin: 10px;
+    text-decoration: black;
+    font: 1.5rem sans-serif;
+}
+
+.chetan{
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+    padding-top: 125px;
+}
+
+.men-pic{
+    height: 200px;
+    margin-top: 50px;
+}
+
+#about{
+
+    margin: 150px;
+}
+
+.hello{
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.edu, .work{
+    margin-left: auto;
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.edu-pic, .work-pic{
+    align-self: inherit;
+    display: inline-block;
+    height: 80px;
+    margin-right: 0;
+}
+
+.skill-row{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 40%;
+    /* margin: auto; */
+    text-align: left;
+}
+
+.contact-me{
+    text-decoration: #056676;
+}
+
+.btn {
+    background: #5EAAA8;
+    background-image: linear-gradient(to bottom, #5EAAA8, #056676);
+    background-image: linear-gradient(top, #5EAAA8, #056676);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 100;
+    padding: 15px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+
+  }
+
+  .btn:hover {
+    border: solid #337FED 1px;
+    background: #7E8A97;
+    background-image: linear-gradient(top, #7E8A97, #30475E);
+    background-image: linear-gradient(to bottom, #7E8A97, #30475E);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  .bottom-section{
+    /* margin: 0; */
+    padding: 50px 0 20px;
+    background-color: #ecf4f3
+  }
+
+  .copyright{
+    color: #a6a6a4;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+
+  @media (max-width: 768px) {
+      body{
+        overflow-x: hidden;
+      }
+
+   }
